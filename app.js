@@ -11,5 +11,7 @@ function findPrimeNumbers(){
       y--
       if(x % y !== 0 && x % 3 !==0 && y == 2){console.log("prime", x);}
     }
+
+    // NOTE need to find a way to keep track of previous itteratred prime numbers to test against x
   }
 }
